@@ -12,6 +12,8 @@
 		B57AE4D3225D9220009D8D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AE4D1225D9220009D8D4E /* Main.storyboard */; };
 		B57AE4D5225D9221009D8D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57AE4D4225D9221009D8D4E /* Assets.xcassets */; };
 		B57AE4D8225D9221009D8D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AE4D6225D9221009D8D4E /* LaunchScreen.storyboard */; };
+		B5A500C0225E438E00876FF2 /* SampleJobsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A500BF225E438E00876FF2 /* SampleJobsCell.swift */; };
+		B5A500C6225E53F200876FF2 /* SampleJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A500C5225E53F200876FF2 /* SampleJob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B57AE4D4225D9221009D8D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B57AE4D7225D9221009D8D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B57AE4D9225D9221009D8D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A500BF225E438E00876FF2 /* SampleJobsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleJobsCell.swift; sourceTree = "<group>"; };
+		B5A500C5225E53F200876FF2 /* SampleJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleJob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		B57AE4E0225D9263009D8D4E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B5A500C5225E53F200876FF2 /* SampleJob.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 		B57AE4E1225D926B009D8D4E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B5A500BF225E438E00876FF2 /* SampleJobsCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			files = (
 				B57AE4D0225D9220009D8D4E /* MainVC.swift in Sources */,
 				B57AE4CE225D9220009D8D4E /* AppDelegate.swift in Sources */,
+				B5A500C0225E438E00876FF2 /* SampleJobsCell.swift in Sources */,
+				B5A500C6225E53F200876FF2 /* SampleJob.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
